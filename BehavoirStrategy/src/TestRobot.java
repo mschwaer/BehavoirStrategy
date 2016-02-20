@@ -26,5 +26,7 @@ public class TestRobot {
 		r1.move();
 		r2.move();
 		r3.move();
+		
+		System.out.println("Alles erledigt");
 	}
 }
