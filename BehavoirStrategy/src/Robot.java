@@ -1,22 +1,38 @@
+/***
+ * 
+ * @author mschwaer
+ *
+ */
 public class Robot {
 	IBehaviour behaviour;
 	String name;
-
+/***
+ * 
+ * @param name
+ */
 	public Robot(String name)
 	{
 		this.name = name;
 	}
-
+	/***
+	 * 
+	 * @param behaviour
+	 */
 	public void setBehaviour(IBehaviour behaviour)
 	{
 		this.behaviour = behaviour;
 	}
-
+	/***
+	 * 
+	 * @return
+	 */
 	public IBehaviour getBehaviour()
 	{
 		return behaviour;
 	}
-
+	/***
+	 * 
+	 */
 	public void move()
 	{
 		System.out.println(this.name + ": Based on current position" +
@@ -27,11 +43,18 @@ public class Robot {
 					"is sent to the movement mechanisms " + 
 					" for the robot '"  + this.name + "'");
 	}
-
+	/**
+	 * Hole den Namen des Roboters
+	 * @return String
+	 */
 	public String getName() {
 		return name;
 	}
 
+	/**
+	 * Setze den Namen des Roboters
+	 * @param name
+	 */
 	public void setName(String name) {
 		this.name = name;
 	}
