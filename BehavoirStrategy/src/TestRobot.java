@@ -1,6 +1,6 @@
 /***
  * 
- * @author mschwaer
+ * @author http://www.oodesign.com/strategy-pattern.html
  *
  */
 public class TestRobot {

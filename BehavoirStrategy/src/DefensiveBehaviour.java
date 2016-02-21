@@ -1,3 +1,8 @@
+/***
+ * 
+ * @author http://www.oodesign.com/strategy-pattern.html
+ *
+ */
 public class DefensiveBehaviour implements IBehaviour{
 	public int moveCommand()
 	{

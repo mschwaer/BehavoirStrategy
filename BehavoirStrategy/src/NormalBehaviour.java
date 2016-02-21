@@ -1,3 +1,8 @@
+/***
+ * 
+ * @author http://www.oodesign.com/strategy-pattern.html
+ *
+ */
 public class NormalBehaviour implements IBehaviour{
 	public int moveCommand()
 	{
